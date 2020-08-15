@@ -69,6 +69,14 @@ module.exports = {
               label: 'Blog',
               to: 'blog',
             },
+            {
+              label: 'Medium (Demo)',
+              href: 'http://medium.com/',
+            },
+            {
+              label: 'Dev.to (Demo)',
+              href: 'https://dev.to',
+            },
           ],
         },
       ],
@@ -83,14 +91,11 @@ module.exports = {
           // It is recommended to set document id as docs home page (`docs/` path).
           homePageId: 'installation',
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          editUrl: 'https://github.com/hamid814/themy-doc/edit/master/website/',
+          editUrl: 'https://github.com/hamid814/themy-doc/edit/master/',
         },
         blog: {
           showReadingTime: true,
-          // Please change this to your repo.
-          editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
+          editUrl: 'https://github.com/hamid814/themy-doc/edit/master/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
