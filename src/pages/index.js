@@ -66,19 +66,13 @@ function Home() {
           <p className="hero__subtitle">{siteConfig.tagline}</p>
           <div className={styles.buttons}>
             <Link
-              className={clsx(
-                'button button--outline button--secondary button--lg',
-                styles.getStarted
-              )}
+              className={clsx('button button--lg', styles.getStarted)}
               to={useBaseUrl('docs/')}
             >
               Open Docs
             </Link>
             <Link
-              className={clsx(
-                'button button--outline button--secondary button--lg',
-                styles.getStarted
-              )}
+              className={clsx('button button--lg', styles.getStarted)}
               style={{ marginLeft: 10 }}
               to="https://github.com/hamid814/themy"
             >

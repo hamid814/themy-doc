@@ -5,8 +5,8 @@ module.exports = {
   baseUrl: '/themy/',
   onBrokenLinks: 'throw',
   favicon: 'img/favicon.ico',
-  organizationName: 'hamid814', // Usually your GitHub org/user name.
-  projectName: 'themy', // Usually your repo name.
+  organizationName: 'hamid814',
+  projectName: 'themy',
   themeConfig: {
     navbar: {
       title: 'themy',
