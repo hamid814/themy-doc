@@ -7,7 +7,7 @@
     "start": "docusaurus start",
     "build": "docusaurus build",
     "swizzle": "docusaurus swizzle",
-    "deploy": "docusaurus deploy",
+    "deploy": "cross-env GIT_USER=\"hamid814\" docusaurus deploy",
     "serve": "docusaurus serve"
   },
   "dependencies": {
@@ -15,6 +15,7 @@
     "@docusaurus/preset-classic": "^2.0.0-alpha.61",
     "@mdx-js/react": "^1.5.8",
     "clsx": "^1.1.1",
+    "cross-env": "^7.0.2",
     "react": "^16.8.4",
     "react-dom": "^16.8.4"
   },

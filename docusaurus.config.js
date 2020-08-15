@@ -1,8 +1,8 @@
 module.exports = {
   title: 'Themy',
   tagline: 'lightweight Js theme toggler',
-  url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/',
+  url: 'https://hamid814.github.io',
+  baseUrl: '/themy/',
   onBrokenLinks: 'throw',
   favicon: 'img/favicon.ico',
   organizationName: 'hamid814', // Usually your GitHub org/user name.
@@ -63,15 +63,11 @@ module.exports = {
           ],
         },
         {
-          title: 'More',
+          title: 'Blog',
           items: [
             {
               label: 'Blog',
               to: 'blog',
-            },
-            {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
             },
           ],
         },
