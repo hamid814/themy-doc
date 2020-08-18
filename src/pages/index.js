@@ -23,7 +23,7 @@ const features = [
     description: (
       <>
         Themes can be added after initilizing, Meaning you can use it as testing
-        inside your frotn end
+        inside your front end.
       </>
     ),
   },
@@ -35,6 +35,33 @@ const features = [
         You can extend what themy can serve you and get more help from it. Themy
         can add utility classed to your project too.
       </>
+    ),
+  },
+];
+
+const comminSoon = [
+  {
+    title: <>Css import</>,
+    description: (
+      <>
+        Right now, we create a &lt;style&gt; tag to effect the styles and color,
+        in near future, there will be option to import a css file into your app.
+      </>
+    ),
+  },
+  {
+    title: <>Public Cdn</>,
+    description: (
+      <>
+        This library will be hosted on a public Cdn and you wont need to bundle
+        your code in future.
+      </>
+    ),
+  },
+  {
+    title: <>More Utils</>,
+    description: (
+      <>Themy utils are extending, meaning there are gonna be more classes.</>
     ),
   },
 ];
@@ -87,6 +114,20 @@ function Home() {
             <div className="container">
               <div className="row">
                 {features.map((props, idx) => (
+                  <Feature key={idx} {...props} />
+                ))}
+              </div>
+            </div>
+          </section>
+        )}
+        <div className={clsx('hero hero--secondary', styles.heroBanner)}>
+          <div className="container hero__subtitle">Commin Soon to themy</div>
+        </div>
+        {comminSoon && comminSoon.length > 0 && (
+          <section className={styles.features}>
+            <div className="container">
+              <div className="row">
+                {comminSoon.map((props, idx) => (
                   <Feature key={idx} {...props} />
                 ))}
               </div>

@@ -1,6 +1,18 @@
 module.exports = {
   someSidebar: {
-    Docusaurus: ['installation', 'doc2', 'doc3'],
-    Features: ['mdx'],
+    ['Getitng Started']: ['introduction', 'installation', 'the-gist'],
+    ['Usage']: [
+      'change-theme'
+      'in-html',
+      'utility-classes',
+      'use-shades',
+      'options',
+      'color-names',
+    ],
+    ['API Refrences']: ['add-theme', 'get-themes', 'get-theme', 'set-theme'],
   },
 };
+
+// GetitngStarted: [],
+// Usage: ['mdx'],
+// Features: []
