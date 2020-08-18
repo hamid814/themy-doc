@@ -3,7 +3,7 @@ module.exports = {
   tagline: 'lightweight Js theme toggler',
   url: 'https://hamid814.github.io',
   baseUrl: '/themy/',
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'ignore',
   favicon: 'img/favicon.ico',
   organizationName: 'hamid814',
   projectName: 'themy',
@@ -36,12 +36,12 @@ module.exports = {
           title: 'Docs',
           items: [
             {
-              label: 'Style Guide',
+              label: 'Introduction',
               to: 'docs/',
             },
             {
-              label: 'Second Doc',
-              to: 'docs/doc2/',
+              label: 'Installation',
+              to: 'docs/installation/',
             },
           ],
         },

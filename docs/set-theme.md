@@ -10,22 +10,19 @@ you can add new themes after initilizing the themy by `addTheme` method
 const themy = require('themy');
 
 const themes = {
-  // list of themes...
+  coolTheme: {
+    // cool colors
+  }
+  awesomeTheme: {
+    // awesome colors
+  }
 };
 
 const theme = new themy(themes);
 
-const coolerTheme = {
-  primary: '#rrggbb',
-  secondary: '#rrggbb',
-};
-
-theme.addTheme(coolerTheme);
-
-// set new theme as active theme
-theme.setTheme('coolerTheme');
+theme.setTheme('awesomeTheme');
 ```
 
 :::note
-when using `setTheme()` , you must use a string as first argument
+when using `setTheme()` , you must pass a **string** as argument
 :::

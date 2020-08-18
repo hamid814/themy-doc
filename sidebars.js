@@ -2,7 +2,7 @@ module.exports = {
   someSidebar: {
     ['Getitng Started']: ['introduction', 'installation', 'the-gist'],
     ['Usage']: [
-      'change-theme'
+      'change-theme',
       'in-html',
       'utility-classes',
       'use-shades',
