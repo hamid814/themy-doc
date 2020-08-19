@@ -27,5 +27,5 @@ theme.setTheme('coolerTheme');
 ```
 
 :::note
-after adding theme with `addTheme()` , the new theme will NOT be set as default theme
+after **adding** theme with `addTheme()` , the new theme will NOT be set as default theme
 :::
